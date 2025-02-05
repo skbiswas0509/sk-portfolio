@@ -12,17 +12,14 @@ const Education = () => {
         </div>
 
         <div className="education-info">
-          {/* left picture */}
           <div className="education-left">
             <img src={nsu_pic} alt="put the nsu pic here" />
           </div>
-
-          {/* right picture */}
           <div className="education-right">
             <div className="education-para">
             <p className='p1'>North South University</p>
             <p>Bsc in Computer Science And Engineering</p>
-            <p>September 2019 - Decemeber 2024</p>
+            <p>2019 - 2024</p>
             </div>
           </div>
         </div>

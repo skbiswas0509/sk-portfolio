@@ -16,10 +16,19 @@ const Mywork = () => {
             <img src={theme_pattern} alt="enter the theme pattern here" />
         </div>
         <div className="mywork-container">
-            {mywork_data.map((work,index)=>{
-                return <a href={work.w_link}><img key={index} src={work.w_img} alt="enterth the work images here" /></a>
-            })}
-        </div>
+                {mywork_data.map((work, index) => (
+                    <div key={index} className="mywork-box">
+                        <a href={work.w_link} target="_blank">
+                            <img src={work.w_img} alt={`Project ${index + 1}`} />
+                        </a>
+                        <hr className="mywork-divider" />
+                        <div className="mywork-content">
+                            <h3>{work.w_title}</h3>
+                            <p>{work.w_desc}</p>
+                        </div>
+                    </div>
+                ))}
+            </div>
         <div onClick={handleClick} className="mywork-showmore">
             <p>Show More</p>
             <FaArrowRight size={30}/>

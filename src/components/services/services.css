@@ -79,37 +79,60 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
-@media(max-width:768px){
-    .services{
-        align-items: start;
-        gap: 70px;
-        margin: 20px 70px;
+@media (max-width: 768px) {
+    .services {
+        align-items: center; /* Center items */
+        gap: 50px;
+        margin: 50px 30px; /* Reduce margin */
     }
-    .services-title h1{
+
+    .services-title h1 {
+        font-size: 50px; /* Reduce title size */
+        text-align: center;
         padding: 0;
-        font-size: 50px;
     }
-    .services-title img{
-        width: 130px;
-        margin-right: -20;
+
+    .services-title img {
+        width: 120px; /* Reduce image size */
+        right: -10px;
     }
-    .services-format{
-        gap: 20px;
-        padding: 32px;
+
+    .services-container {
+        grid-template-columns: 1fr; /* Single column layout */
+        width: 90vw; /* Use more screen space */
+        gap: 40px;
+        margin-bottom: 50px;
     }
-    .services-format h2{
-        font-size: 28px;
+
+    .services-format {
+        height: auto; /* Allow dynamic height */
+        padding: 20px;
     }
-    .services-format p{
-        font-size: 18px;
-        line-height: 32px;
-        max-width: 300px;
+
+    .services-format h3 {
+        font-size: 22px; /* Reduce subtitle size */
+        text-align: center;
     }
-    .services-readmore img{
-        width: 20px;
+
+    .services-format h2 {
+        font-size: 26px; /* Reduce heading size */
+        min-height: auto; /* Remove fixed height */
     }
-    .services-container{
-        grid-template-columns: 1fr 1fr;
-        gap: 30px;
+
+    .services-container p {
+        font-size: 18px; /* Reduce paragraph size */
+        line-height: 28px;
+        text-align: justify;
+        max-width: 100%; /* Ensure text does not overflow */
+    }
+
+    .services-readmore {
+        justify-content: center; /* Center button */
+        margin-bottom: 20px;
+    }
+
+    .services-readmore img {
+        width: 25px; /* Reduce icon size */
+        margin-left: 0; /* Center the icon */
     }
 }
