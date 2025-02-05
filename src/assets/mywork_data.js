@@ -8,7 +8,7 @@ const mywork_data = [
         w_no: 1,
         w_title: "Dengue Outbreak Prediction",
         w_img: dengue, // Replace with a valid image URL
-        w_desc: "This project successfully predicted dengue fever outbreaks in two cities by employing data analysis, feature creation, and cross-validated model selection, achieving optimal predictive power.",
+        w_desc: "Predicted dengue fever outbreaks in two cities by employing data analysis, feature creation, and cross-validated model selection, achieving optimal predictive power.",
         w_link: "https://github.com/skbiswas0509/Dengue-OutBreak-Prediction-For-499A"
     },
     {
@@ -22,14 +22,14 @@ const mywork_data = [
         w_no: 3,
         w_title: "Book Store",
         w_img: bookstore, // Replace with a valid image URL
-        w_desc: "The Book Store project features a modern frontend built with React, utilizing Tailwind CSS for responsive design, and a robust backend powered by Express.js and MongoDB.",
+        w_desc: "This project features a modern frontend built with React, utilizing Tailwind CSS for responsive design, and a robust backend powered by Express.js and MongoDB.",
         w_link: "https://github.com/skbiswas0509/Book-Store"
     },
     {
         w_no: 4,
-        w_title: "Ecommerce Website",
-        w_img: ecommerce, // Replace with a valid image URL
-        w_desc: "The Buzzer project features a modern frontend built with React, utilizing Redux Toolkit for state management and Tailwind CSS for responsive design. The backend is powered by Express.js and MongoDB, incorporating security best practices with bcryptjs, and JSON Web Tokens for authentication.",
+        w_title: "Buzzer",
+        w_img: ecommerce,
+        w_desc: "The project features a modern frontend built with React, utilizing Redux Toolkit for state management and Tailwind CSS for responsive design. The backend is powered by Express.js and MongoDB, incorporating security best practices with bcryptjs, and JSON Web Tokens for authentication.",
         w_link: "https://github.com/skbiswas0509/meetup_connect"
     },
     // {
