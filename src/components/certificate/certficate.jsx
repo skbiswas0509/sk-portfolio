@@ -29,7 +29,7 @@ const Certficate = () => {
           }
         </div>
         <div onClick={handleClick} className="certificates-showmore">
-          <p>Some More</p>
+          <p>Show More</p>
           <FaArrowRight size={30}/>
         </div>
     </div>

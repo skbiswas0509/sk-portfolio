@@ -68,10 +68,10 @@
 }
 .services-readmore img{
     width: 40px;
-    filter: brightness(0) invert(1); /* Turn the image white */
-    margin-left: 300px; /* Adjust margins to position tightly */
-    display: inline-block; /* Ensure proper alignment */
-    vertical-align: middle; /* Align vertically with text */
+    filter: brightness(0) invert(1); 
+    margin-left: 300px; 
+    display: inline-block; 
+    vertical-align: middle; 
 }
 .services-format:hover{
     border: 2px solid #ff00ff;
@@ -81,58 +81,58 @@
 }
 @media (max-width: 768px) {
     .services {
-        align-items: center; /* Center items */
+        align-items: center; 
         gap: 50px;
-        margin: 50px 30px; /* Reduce margin */
+        margin: 50px 30px; 
     }
 
     .services-title h1 {
-        font-size: 50px; /* Reduce title size */
+        font-size: 50px; 
         text-align: center;
         padding: 0;
     }
 
     .services-title img {
-        width: 120px; /* Reduce image size */
+        width: 120px; 
         right: -10px;
     }
 
     .services-container {
-        grid-template-columns: 1fr; /* Single column layout */
-        width: 90vw; /* Use more screen space */
+        grid-template-columns: 1fr; 
+        width: 90vw;
         gap: 40px;
         margin-bottom: 50px;
     }
 
     .services-format {
-        height: auto; /* Allow dynamic height */
+        height: auto; 
         padding: 20px;
     }
 
     .services-format h3 {
-        font-size: 22px; /* Reduce subtitle size */
+        font-size: 22px; 
         text-align: center;
     }
 
     .services-format h2 {
-        font-size: 26px; /* Reduce heading size */
-        min-height: auto; /* Remove fixed height */
+        font-size: 26px; 
+        min-height: auto; 
     }
 
     .services-container p {
-        font-size: 18px; /* Reduce paragraph size */
+        font-size: 18px; 
         line-height: 28px;
         text-align: justify;
-        max-width: 100%; /* Ensure text does not overflow */
+        max-width: 100%; 
     }
 
     .services-readmore {
-        justify-content: center; /* Center button */
+        justify-content: center; 
         margin-bottom: 20px;
     }
 
     .services-readmore img {
-        width: 25px; /* Reduce icon size */
-        margin-left: 0; /* Center the icon */
+        width: 25px; 
+        margin-left: 0; 
     }
 }

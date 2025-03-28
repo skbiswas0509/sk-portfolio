@@ -40,10 +40,10 @@ const Navbar = () => {
           <a href="https://twitter.com/" target="_blank">
               <img src={twitterLight} alt="Twitter icon" />
             </a>
-            <a href="https://github.com/" target="_blank">
+            <a href="https://github.com/skbiswas0509" target="_blank">
               <img src={githubLight} alt="Github icon" />
             </a>
-            <a href="https://linkedin.com/" target="_blank">
+            <a href="https://www.linkedin.com/in/sukumar-biswas-919888244/" target="_blank">
               <img src={linkedinLight} alt="Linkedin icon" />
             </a>
           </div>

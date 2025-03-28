@@ -43,26 +43,33 @@
     overflow: hidden;
 }
 .mywork-box:hover {
+    border: 2px solid #ff00ff;
+    background-image: linear-gradient(45deg, #3f0028, #582300);
     transform: scale(1.05);
-    border-color: #ff00ff;
+    transition: 0.4s;
 }
 
 .mywork-box img {
     width: 100%;
-    height: 200px;
+    height: 260px;
     object-fit: fill;
     border-radius: 10px;
 }
-
+.mywork-box img:hover {
+    transform: scale(1.02);
+    border: 2px solid transparent;
+    border-image: linear-gradient(270deg, #DF8908 50%, #B415FF 100%) 1;
+    border-radius: 10px;
+    transition: 0.4s;
+}
 .mywork-divider {
     width: 100%;
     border: none;
     height: 2px;
     background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);
-    margin: 20px 0;
 }
 .mywork-content {
-    padding: 15px;
+    padding: 10px;
 }
 .mywork-content h3 {
     font-size: 24px;
@@ -75,13 +82,7 @@
     line-height: 1.5;
     text-align: justify;
 }
-.mywork-box img:hover {
-    transform: scale(1.02);
-    border: 2px solid transparent;
-    border-image: linear-gradient(270deg, #DF8908 50%, #B415FF 100%) 1;
-    border-radius: 10px;
-    transition: 0.3s;
-}
+
 .mywork-showmore {
     display: flex;
     align-items: center;
