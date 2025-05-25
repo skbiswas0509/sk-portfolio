@@ -48,12 +48,13 @@
     transform: scale(1.05);
     transition: 0.4s;
 }
-
 .mywork-box img {
     width: 100%;
-    height: 260px;
-    object-fit: fill;
-    border-radius: 10px;
+    height: 500px;
+    padding: 12px; 
+    object-fit: cover; 
+    margin: auto auto;
+    box-sizing: border-box;
 }
 .mywork-box img:hover {
     transform: scale(1.02);
