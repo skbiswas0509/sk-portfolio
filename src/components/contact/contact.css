@@ -103,61 +103,82 @@
     transition: 0.3s;
 }
 
-@media (max-width: 768px) {
+/* For larger desktop screens */
+@media (min-width: 1440px) {
     .contact {
-        gap: 15px; 
-        margin: auto;
-        align-items: center;
+        margin: 100px 250px; 
+        gap: 100px;
     }
 
     .contact-title h1 {
-        font-size: 50px; 
-        padding: 0;
-    }
-
-    .contact-title img {
-        width: 130px; 
-        right: -20px;
+        font-size: 100px;
     }
 
     .contact-section {
-        flex-direction: column; 
-        align-items: center;
-        gap: 10px;
+        gap: 200px;
     }
 
     .contact-left h1 {
-        font-size: 54px;
+        font-size: 100px;
     }
 
     .contact-left p {
-        font-size: 18px; 
+        font-size: 24px;
+        line-height: 40px;
+        max-width: 650px;
     }
 
     .contact-details {
-        gap: 15px; 
+        font-size: 26px;
+        gap: 40px;
     }
 
-    .contact-detail img {
-        width: 25px; 
+    .contact-right input {
+        width: 800px;
+        height: 90px;
+        font-size: 22px;
     }
 
-    .contact-right {
-        align-items: flex-start; 
-    }
-
-    .contact-right label {
-        font-size: 20px; 
-    }
-
-    .contact-right input,
     .contact-right textarea {
-        width: 100%; 
-        font-size: 18px; 
+        width: 750px;
+        font-size: 22px;
     }
 
     .contact-submit {
-        font-size: 20px; 
-        padding: 15px 40px;
+        font-size: 36px;
+        padding: 25px 70px;
+    }
+}
+
+/* For ultra-wide monitors */
+@media (min-width: 1920px) {
+    .contact {
+        margin: 120px 300px;
+        gap: 120px;
+    }
+
+    .contact-title h1 {
+        font-size: 120px;
+    }
+
+    .contact-section {
+        gap: 250px;
+    }
+
+    .contact-left h1 {
+        font-size: 120px;
+    }
+
+    .contact-left p {
+        font-size: 26px;
+        line-height: 42px;
+    }
+
+    .contact-right input {
+        width: 900px;
+    }
+
+    .contact-right textarea {
+        width: 850px;
     }
 }
