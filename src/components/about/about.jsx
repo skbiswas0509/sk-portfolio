@@ -1,7 +1,7 @@
 import React from 'react'
 import './about.css'
 import theme_pattern from '../../assets/theme_pattern.svg'
-import profile_img from '../../assets/profile_img.jpg'
+// import profile_img from '../../assets/profile_img.jpg'
 
 const About = () => {
   return (
@@ -11,9 +11,9 @@ const About = () => {
           <img src={theme_pattern} alt="Enter the theme pattern here" />
         </div>
         <div className="about-section">
-          <div className="about-left">
+          {/* <div className="about-left">
             <img src={profile_img} alt="enter the profile image here" />
-          </div>
+          </div> */}
           <div className="about-right">
             <div className="about-para">
               <p>I’m Sukumar Biswas, a recent graduate in Computer Science and Engineering from North South University. My expertise spans software development and cybersecurity, with proficiency in Python, Django, React.js, SQL, and Web Application Penetration Testing. I enjoy collaborative projects and constantly strive to enhance my technical skills and understanding.</p>

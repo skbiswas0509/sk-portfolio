@@ -30,6 +30,7 @@ const Navbar = () => {
             <li><AnchorLink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={underline} alt='underline here'/>:<></>}</li>
             <li><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About Me</p></AnchorLink>{menu==="about"?<img src={underline} alt='underline here'/>:<></>}</li>
             <li><AnchorLink className='anchor-link' offset={50} href='#education'><p onClick={()=>setMenu("education")}>Education</p></AnchorLink>{menu==="education"?<img src={underline} alt='underline here'/>:<></>}</li>
+            <li><AnchorLink className='anchor-link' offset={50} href='#experience'><p onClick={()=>setMenu("experience")}>Experience</p></AnchorLink>{menu==="experience"?<img src={underline} alt='underline here'/>:<></>}</li>
             <li><AnchorLink className='anchor-link' offset={50} href='#certificate'><p onClick={()=>setMenu("certificate")}>Certficates</p></AnchorLink>{menu==="certificate"?<img src={underline} alt='underline here'/>:<></>}</li>
             <li><AnchorLink className='anchor-link' offset={50} href='#services'><p onClick={()=>setMenu("services")}>Services</p></AnchorLink>{menu==="services"?<img src={underline} alt='underline here'/>:<></>}</li>
             <li><AnchorLink className='anchor-link' offset={50} href='#work'><p onClick={()=>setMenu("work")}>Projects</p></AnchorLink>{menu==="work"?<img src={underline} alt='underline here'/>:<></>}</li>

@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from './components/navbar/navbar.jsx'
 import Hero from './components/hero/hero.jsx'
 import About from './components/about/about.jsx'
@@ -8,6 +7,7 @@ import Contact from './components/contact/contact.jsx'
 import Footer from './components/footer/footer.jsx'
 import Certficate from './components/certificate/certficate.jsx'
 import Education from './components/education/education.jsx'
+import Experience from './components/experience/experience.jsx'
 
 const App = () => {
   return (
@@ -16,6 +16,7 @@ const App = () => {
       <Hero />
       <About />
       <Education/>
+      <Experience/>
       <Certficate/>
       <Services />
       <Mywork />
