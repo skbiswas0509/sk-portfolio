@@ -1,6 +1,6 @@
 import React from 'react'
 import "./hero.css"
-import profile_img from '../../assets/profile_img.jpg'
+import profile_img from '../../assets/sk.png'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 const Hero = () => {
