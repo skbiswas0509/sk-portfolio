@@ -1,4 +1,4 @@
-.edu{
+.exp{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,33 +6,44 @@
     gap: 80px;
     margin: 80px 170px;
 }
-.edu-title{
+.exp-title{
     position: relative;
 }
-.edu-title h1{
+.exp-title h1{
     font-size: 80px;
     font-weight: 600;
     padding: 0px 30px;
 }
-.edu-title img{
+.exp-title img{
     position: absolute;
     bottom: 0;
     right: 0;
     z-index: -1;
 }
 
-.education-info {
+.experience-info {
     display: flex;
     gap: 20px;
 }
-.education-left img{
-    width: 600px;
-    border-radius: 10px;
+.experience-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    gap: 20px;
+    font-size: 30px;
+    font-weight: 500;
     justify-content: center;
-    border: 3px solid transparent;
-    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%) border-box;
+    align-items: center;
+    text-align: justify;
 }
-.education-right{
+.experience-left .p1{
+    font-size: 40px;
+    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.experience-right{
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -41,7 +52,7 @@
     gap: 80px;
 }
 
-.education-para{
+.experience-para{
     display: flex;
     flex-direction: column;
     margin-left: 40px;
@@ -52,59 +63,44 @@
     align-items: center;
     text-align: justify;
 }
-.education-para .p1{
-    font-size: 40px;
-}
-.education-para .p1{
-    font-size: 40px;
-    background: linear-gradient(270deg, #DF8908 50%, #B415FF 100%);;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 
 @media(max-width: 768px) {
-    .edu {
+    .exp {
         margin: 50px 30px; 
         gap: 50px;
     }
     
-    .edu-title h1 {
+    .exp-title h1 {
         font-size: 50px; 
         text-align: center;
         padding: 0;
     }
 
-    .edu-title img {
+    .exp-title img {
         width: 120px; 
         right: -10px;
     }
 
-    .education-info {
+    .experience-info {
         flex-direction: column;
         align-items: center;
         justify-items: center;
         gap: 40px;
     }
 
-    .education-left img {
-        width: 100%;
-        max-width: 300px;
-    }
-
-    .education-right {
+    .experience-right {
         gap: 30px;
         text-align: center;
     }
 
-    .education-para {
+    .experience-para {
         font-size: 18px; 
         line-height: 28px;
         text-align: center; 
         margin-left: 0;
     }
 
-    .education-para .p1 {
+    .experience-para .p1 {
         font-size: 24px;
     }
 }
